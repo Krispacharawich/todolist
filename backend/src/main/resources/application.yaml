@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: TodoList
+  datasource:
+    url: jdbc:h2:mem:mytodos
+    username: test
+    password: test
+    driverClassName: org.h2.Driver
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+
+  h2:
+    console.enabled: true
